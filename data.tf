@@ -1,9 +1,3 @@
-data "aws_availability_zones" "available" {
-  state = "available"
-  
+output "vpc_id" {
+  value = aws_vpc.main.id
 }
-
-# output "azs-zones-info" {
-#   value = data.aws_availability_zones.available
-  
-# }
