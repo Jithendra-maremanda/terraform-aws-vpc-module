@@ -8,7 +8,6 @@ variable "project" {
 
 variable "environment" {
     type = string
-  
 }
 
 #Tags for VPC and IGW
